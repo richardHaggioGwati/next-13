@@ -2,6 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    domains: ["images-na.ssl-images-amazon.com", "ia.media-imdb.com"],
+  },
+  experimental: {
+    appDir: true,
+  }
 }
 
 module.exports = nextConfig
