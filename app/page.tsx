@@ -1,10 +1,7 @@
-//https://fake-movie-database-api.herokuapp.com/api?s=batman    images: {
-  //  domains: ['assets.example.com'], "images-na.ssl-images-amazon.com"
- // },
 
 export default function Page() {
     return (
-      <p>
+      <p className="text-3xl font-bold underline">
         Hello, Next.js!
       </p>
     )
